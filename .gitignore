@@ -1,1 +1,4 @@
 .env*
+.expo*
+*lock.json
+node_modules
