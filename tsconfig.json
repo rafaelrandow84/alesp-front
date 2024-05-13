@@ -6,6 +6,7 @@
   },
   "extends": "expo/tsconfig.base"
 }
+<<<<<<< HEAD
 {
   "compilerOptions": {
     "paths": {
@@ -14,3 +15,5 @@
   },
   "extends": "expo/tsconfig.base"
 }
+=======
+>>>>>>> 39ef9f3 (tester)
