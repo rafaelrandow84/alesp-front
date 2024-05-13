@@ -4,24 +4,21 @@
     "promptToConfigurePushNotifications": false
   },
   "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "channel": "development",
+      "env": {
+        "APP_VARIANT": "development"
+      }
+    },
     "preview": {
       "distribution": "internal",
-      "channel": "preview",
-       "android": {
-        "image": "latest"
-        },
-        "ios": {
-          "image": "latest"
-        }
+      "channel": "preview"
     },
     "production": {
       "channel": "production",
-       "android": {
-        "image": "latest"
-      },
-      "ios": {
-        "image": "latest"
-      }
+      "autoIncrement": true
     }
   },
   "submit": {

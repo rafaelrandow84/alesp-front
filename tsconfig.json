@@ -1,4 +1,19 @@
 {
-  "compilerOptions": {},
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
   "extends": "expo/tsconfig.base"
 }
+<<<<<<< HEAD
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "extends": "expo/tsconfig.base"
+}
+=======
+>>>>>>> 39ef9f3 (tester)
